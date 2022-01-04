@@ -1,6 +1,6 @@
 echo "This script will install Network Simulator on this computer"
 cd Desktop
-wget "https://sourceforge.net/projects/nsnam/files/allinone/ns-allinone-2.35/"
+wget "https://sourceforge.net/projects/nsnam/files/latest/download"
 sudo apt update
 sudo apt-get install build-essential autoconf automake libxmu-dev gnuplot default-jre
 sudo apt install gcc-4.8 g++-4.8
